@@ -3,7 +3,9 @@
 	Nome do ficheiro: ex4.js
 	Usado: switch(), case, break, default
 */
-
+/*	
+	Imaxe corporativa 🤦🏼‍♀️
+*/
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
 document.write('<h1>Traballamos con condicionais</h1>');
 
@@ -11,7 +13,10 @@ document.write('<h1>Traballamos con condicionais</h1>');
 var resposta = prompt('que tal persoa é vostede? ');
 document.write('Vostede di ser unha persoa ' + resposta +  '<br>'); // unha cadea detrás da outra co signo +
 
-// avaliamos o que introduce o usuario
+/*	
+	avaliamos o que introduce o usuario
+*/
+
 switch(resposta)
 {
 	case 'estupenda':

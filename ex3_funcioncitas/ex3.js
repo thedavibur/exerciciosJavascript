@@ -31,6 +31,7 @@ function calcularMedia(n1,n2) {
 
 document.write('<img src="../logo.png" alt="Algo falla no logo">');
 document.write('<h1>Traballamos con funcións</h1>');
+
 document.write('Algunhas veñen predefinidas: <code>alert(), prompt(), parseInt()</code> <br>');
 document.write('Outras están na biblioteca <i>Math</i> como <code>Math.random(), Math.round()</code> <br>');
 document.write('<hr>Podemos definir nós mesmos funcións: <code>saudar(), cotillear(), calcularMedia()</code><br>');
