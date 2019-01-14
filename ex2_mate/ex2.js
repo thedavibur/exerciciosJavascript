@@ -20,18 +20,18 @@ var solucionado = parseInt(num1)+parseInt(num2);
 document.write('O resultado da túa suma é '+ solucionado);
 
 // fallos nos cálculos
-var num3 = 0;
+var num3 = 2;
 document.write('<br> <hr>Atención ós erros nas contas (dividir entre 0) será...'+ num1/num3); // opsssss
 
 
-document.write('<hr><h3>Javascript "inventa" un número entre 0 e 10</h3>');
+document.write('<hr><h3>Javascript "inventa" un número entre 0 e 23</h3>');
 
 var misterio = Math.random();
 document.write('<br>Xenero un número aleatorio menor ca un: '+ misterio);
 
 //olliño con este truquito para non crear máis variables
-misterio = misterio*10;
-document.write('<br> Agora está entre 0 e 10: '+ misterio);
+misterio = misterio*23;
+document.write('<br> Agora está entre 0 e 23: '+ misterio);
 
 //olliño con este truquito para non crear máis variables (outra vez)
 misterio = Math.round(misterio)

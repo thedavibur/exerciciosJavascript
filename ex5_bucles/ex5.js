@@ -17,7 +17,7 @@ document.write('<h2> Bucle WHILE</h2>');
 //exercicio 1
 document.write('<h3>☞ Contar ata cinco</h3>');
 numerito = 0;
-while (numerito <=5){
+while (numerito <=8){
 	document.write(numerito + ' ');
 	numerito++;
 }
