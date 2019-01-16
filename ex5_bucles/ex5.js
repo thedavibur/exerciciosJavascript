@@ -57,7 +57,7 @@ for (var i=10; i<= 44; i=i+5) {
 //exercicio 4
 document.write('<h3>☞ Outra canción infantil</h3>');
 for (var i=2; i<= 10; i++) {
-	document.write(i +' 🐘 se balanceaban sobre la tela... ');
+	document.write(i +' 🐘 elefantes se balanceaban sobre la tela... ');
 }
 
 
