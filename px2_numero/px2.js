@@ -13,9 +13,10 @@ while (escolle != misterio)
 {
 	if (escolle > misterio)
 	{
-		document.write('O número misterioso é menor ca o teu'+'<br>');
+		document.write('O número misterioso é menor ca o teu'+'<br>')
 	}
-	else (escolle < misterio)
+
+	else
 	{
 		document.write('O número misterioso é maior ca o teu'+'<br>')
 	}
