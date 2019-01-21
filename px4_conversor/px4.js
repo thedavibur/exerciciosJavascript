@@ -59,23 +59,30 @@
 // for (var i=2; i<= 10; i++) {
 // 	document.write(i +' 🐘 se balanceaban sobre la tela... ');
 // }
-var elige
+  var    pulg = 60 ;
 
-switch(elige)
-{
-	case 'a':
-		document.write('POR SUPOSTO 😆');
-	break;
+         var   c_pies = ( pulg*0.0833333 ) ;
 
-	case 'b':
-		document.write('QUE SORTE 🤣');
-	break;
+         var    pies= 3 ;
 
-	case 'c':
-	break;
+          var   c_metros= ( pies *0.3048) ;
 
-	case 'd':
-		document.write('🤨 ENGREÍDA');
-	break;
-}; 
+          var   km= 10 ;
 
+           var   c_millas=( km*0.621371) ;
+
+ 
+
+                             document.write(“Conversión de Unidades : “ ) ;
+
+                             document.write(“ < br > < br > “ ) ;
+
+                             document.write(pulg+ “ pulgadas= “+c_pies+ “ pies.” ) ;
+
+                             document.write( “<br> “) ;
+
+                             document.write(pies+” pies=  “+c_metros+ “ metros . “ ) ;
+
+                             document.write( “< br > “ ) ;
+
+                             document.write(km+” kilómetros= “+c_millas+” millas . “ ) ;
