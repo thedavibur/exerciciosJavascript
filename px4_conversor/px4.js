@@ -1,88 +1,86 @@
-// /* 
-// 	Código en JavaScript
-// 	Nome do ficheiro: ex5.js
-// 	Usado: for, while
-// */
-// /*	
-// 	Imaxe corporativa 🤦🏼‍♀️
-// */
-// document.write('<img src="../logo.png" alt="Algo falla no logo">');
-// document.write('<h1> Páxina de bucles </h1>')
-
-// /*	
-// 	bucle WHILE
-// */
-// document.write('<h2> Bucle WHILE</h2>');
-
-// //exercicio 1
-// document.write('<h3>☞ Contar ata cinco</h3>');
-// numerito = 0;
-// while (numerito <=5){
-// 	document.write(numerito + ' ');
-// 	numerito++;
-// }
-
-// //exercicio 2
-// document.write('<h3>☞ Preparar bocata</h3>');
-// var comida = 'Pan con';
-// while (comida != 'nada') {
-// 	document.write(comida+ ' ');
-// 	comida  = prompt('Que vos apetece comer con pan?');
-// }
 
 
-// /*	
-// 	Bucle FOR
-// */
-// document.write('<h2> Bucle FOR</h2>');
 
-// //exercicio 1
-// document.write('<h3>☞ Facer algo cinco veces</h3>');
-// for (var i=1; i<= 5; i++) {
-// 	document.write('quieres que te cuente el cuento de la buena pipa? ');
-// }
+/////////////////METROS//////////////
+///////////////////////////////////////////////////////////////////////
 
-// //exercicio 2
-// document.write('<h3>☞ Aprender a contar ata 10</h3>');
-// for (var i=0; i<= 10; i++) {
-// 	document.write(i +', ');
-// // }
 
-// //exercicio 3
-// document.write('<h3>☞ Aprender a contar ata 44 de cinco en cinco comezando en 10</h3>');
-// for (var i=(-7); i<= 700; i=i+100) {
-// 	document.write(i+' ');
-// }
 
-// //exercicio 4
-// document.write('<h3>☞ Outra canción infantil</h3>');
-// for (var i=2; i<= 10; i++) {
-// 	document.write(i +' 🐘 se balanceaban sobre la tela... ');
-// }
-  var    pulg = 60 ;
+///////////////////////////////////////////////////////////////////////////////////////////
 
-         var   c_pies = ( pulg*0.0833333 ) ;
 
-         var    pies= 3 ;
 
-          var   c_metros= ( pies *0.3048) ;
+/////////GIGAS/////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
 
-          var   km= 10 ;
 
-           var   c_millas=( km*0.621371) ;
 
- 
+////////////////////////////////////////////////////////////////////////////////////
 
-                             document.write(“Conversión de Unidades : “ ) ;
 
-                             document.write(“ < br > < br > “ ) ;
+//////////DINERO////////////
+////////////////////////////////////////////////////////////////////////////////////////7
 
-                             document.write(pulg+ “ pulgadas= “+c_pies+ “ pies.” ) ;
 
-                             document.write( “<br> “) ;
 
-                             document.write(pies+” pies=  “+c_metros+ “ metros . “ ) ;
+///////////////////////////////////////////////////////////////////////////////////
 
-                             document.write( “< br > “ ) ;
 
-                             document.write(km+” kilómetros= “+c_millas+” millas . “ ) ;
+
+// var resposta = prompt('que quieres convertir? (pon el numero) 1.- metros-kilometros, 2.- gigas-megas, 3.- euro-dollar');
+
+
+
+
+// switch(resposta)
+// {
+//   case '1':
+//   var metros = prompt('pon cuantos metros quieres pasar a kilometros')
+
+//   function distancia(metros) {
+//     kilometros = (parseInt(metros)/1000);
+//     return kilometros;
+//   }
+
+//   dist=distancia(metros);
+//   alert(metros + ' metros son ' + dist + ' kilometros');
+//   break;
+
+
+//   case '2':
+//   var gigas = prompt('pon cuantos gigas quieres pasar a megas')
+
+//   function tamaño(gigas) {
+//     megas = (parseInt(gigas)*1024);
+//     return megas;
+//   }
+
+//   dist=tamaño(gigas);
+//   alert(gigas + ' gigas son ' + dist + ' megas');
+//   break;
+
+//   case '3':
+//   var euros = prompt('pon cuantos euros quieres pasar a dollares')
+
+//   function dinero(euros) {
+//     dollar = (parseInt(euros)*0.87);
+//     return dollar;
+//   }
+
+//   dist=dinero(euros);
+//   alert(euros + ' euros son ' + dist + ' dollares');
+//   break;
+// }; 
+
+
+function LengthConverter1(valNum1) {
+  document.getElementById("metros").innerHTML=valNum1/1000;
+}
+
+function LengthConverter2(valNum2) {
+  document.getElementById("megas").innerHTML=valNum2*1024;
+}
+
+function LengthConverter3(valNum3) {
+  document.getElementById("dollar").innerHTML=valNum3*0.87;
+}
