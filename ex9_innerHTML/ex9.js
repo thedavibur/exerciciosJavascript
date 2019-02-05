@@ -15,6 +15,33 @@ function cambiarCor(colorin) {
 	letras.style.color = colorin;
 }
 
+
+
+
+
+function linea_arriba() {
+  var linea_up = document.getElementById("textito");
+  linea_up.style.textDecoration = "overline";
+}
+
+function linea_baixo() {
+  var linea_down = document.getElementById("textito");
+  linea_down.style.textDecoration = "underline";
+}
+
+function linea_ambas() {
+  var lineas = document.getElementById("textito");
+  lineas.style.textDecoration = "underline overline";
+}
+
+function de_cero() {
+  var cero = document.getElementById("textito");
+  cero.style.textDecoration = "initial";
+}
+
+
+
+
 function procesarDatos(){
 	var aa;
 	var nn;
