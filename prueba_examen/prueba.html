@@ -1,18 +1,56 @@
 <html lang="gl">
 <head>
 	<meta charset="utf-8">
-	<title>Exemplo de xanelas emerxentes</title>
-	<script type="text/javascript" src="ex1.js"></script>
+	<title>Ejemplo examen</title>
+	<link rel="stylesheet" href="prueba.css">
+	<script type="text/javascript" src="prueba.js"></script>
 </head>
 <body>
 
-<h1>Que emote queres que pinte?
+<h1>Que emote quieres que pinte?</h1>
 
-<p>:) -> </p>
+<h3>
+<p>:)  <button onclick="emote()"> ➡ </button> <span id="res_emote"></span> </p>
 
-<p>:( -> </p>
+<p>:(  <button onclick="emote2()"> ➡ </button> <span id='res_emote2'></span> </p>
 
-<p>;) -> </p>
+<p>;)  <button onclick="emote3()"> ➡ </button> <span id='res_emote3'></span> </p>
+</h3>
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form>
+	<select id="mySelect">
+		<option value="--">--</option>
+		<option value=":)">:)</option>
+		<option value=":(">:(</option>
+		<option value=";)">;)</option>
+	</select>
+	<input type="button" value="➡" onclick="emoji()">
+	<span id="res_emoji"></span> 
+</form>
+
 
 
 </body>
